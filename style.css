@@ -1,0 +1,37 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+.container {
+  background-color: #777;
+  margin: 10% auto;
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#result {
+  margin-top: 20px;
+  background-color: lightgreen;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+span {
+  font-weight: bold;
+}
